@@ -1,10 +1,4 @@
 {
-  "name": "Coupon Hack",
-  "short_name": "Coupon Hack",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "Aplicação para obter cupões Free Shipping.",
   "icons": [
     {
       "src": "windows10/Square71x71Logo.scale-400.png",
