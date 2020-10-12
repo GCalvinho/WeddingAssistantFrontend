@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f10f690c-7707-49ca-944a-4ffb8b95a4a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +19,13 @@
   <component name="ProjectId" id="1ijSXikHZXvUQJDolzvokMh6PNR" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projectos\Wedding Assistant\Wedding Assistant UI Git" />
+      <recent name="D:\Projectos\Wedding Assistant\Wedding Assistant UI Git\Resources\JS" />
+      <recent name="D:\Projectos\Wedding Assistant\Wedding Assistant UI Git\Resources\CSS" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +57,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
