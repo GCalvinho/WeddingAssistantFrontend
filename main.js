@@ -5,9 +5,15 @@ $( window ).on('load', function() {
 });
 
 function initCountdown(){
+hideCards();
+$("#waitingCountDown").show();
+setTimeout(function() { $("#waitingCountDown").attr('style','display:none !important'); }, 2000);
+$("#countdown").hide();
+setTimeout(function() { $("#countdown").fadeIn( "slow" ); }, 2000);
+
     $('#countdown').countdown({
         // Target date
-        date: '12/24/2020 23:59:59',
+        date: '10/23/2020 14:48:59',
         // time zone
         offset: +1,
         // Countdown text
@@ -21,9 +27,8 @@ function initCountdown(){
         seconds: 'Segundos',
         hideOnComplete: true
         }, function () {
-            //alert('Merry Christmas!');
-            // lock vanishes
-            // details appear
+            $("#contdownSection").hide();
+            showCards();
         });
 }
 
@@ -38,5 +43,12 @@ function controlDetails(){
     });
 }
 
+function hideCards(){
+    $('#weddingCards').hide();
+};
+
+function showCards(){
+    $('#weddingCards').fadeIn( "slow" );
+};
 
 
