@@ -13,7 +13,7 @@ setTimeout(function() { $("#countdown").fadeIn( "slow" ); }, 2000);
 
     $('#countdown').countdown({
         // Target date
-        date: '10/23/2020 14:48:59',
+        date: '12/25/2020 23:59:59',
         // time zone
         offset: +1,
         // Countdown text
